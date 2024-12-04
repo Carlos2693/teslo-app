@@ -6,7 +6,7 @@ class AuthRepositoryImpl extends AuthRepository {
   final AuthDatasource dataSource;
 
   AuthRepositoryImpl(
-    AuthDatasource? dataSource
+    [AuthDatasource? dataSource]
   ) : dataSource = dataSource ?? AuthDataSourceImpl();
 
   @override
