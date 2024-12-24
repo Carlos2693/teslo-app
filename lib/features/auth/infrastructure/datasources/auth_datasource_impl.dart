@@ -18,7 +18,7 @@ class AuthDataSourceImpl extends AuthDatasource {
         '/auth/check-status',
         options: Options(
           headers: {
-            'Authorization': 'Beader $token'
+            'Authorization': 'Bearer $token'
           }
         )
       );
