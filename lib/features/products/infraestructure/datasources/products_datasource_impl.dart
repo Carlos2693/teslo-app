@@ -2,7 +2,7 @@ import 'package:dio/dio.dart';
 
 import 'package:teslo_shop/config/constants/environment.dart';
 import 'package:teslo_shop/features/products/domain/domain.dart';
-import './product_mapper.dart';
+import '../mappers/product_mapper.dart';
 
 class ProductsDatasourceImpl extends ProductsDatasource {
 
